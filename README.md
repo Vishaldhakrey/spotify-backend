@@ -61,8 +61,8 @@ Create a .env file in the root directory with the following:
    ```bash
    npm run dev
 ---
-###Folder structure
-   
+## Folder structure
+```   
 spotify-backend/
 ├── src/
 │   ├── controllers/       # API controllers
@@ -74,5 +74,5 @@ spotify-backend/
 ├── server.js              # Application entry point
 ├── package.json           # Project dependencies
 └── README.md              # Project documentation
-
+```
 
