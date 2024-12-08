@@ -40,11 +40,11 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/your-username/spotify-backend.git
    cd spotify-backend
-
+   ```
 2. Install Dependencies
    ```bash
-  npm install
- ```
+   npm install
+   ```
 3. Set up environment variables:
 Create a .env file in the root directory with the following:
 ```
