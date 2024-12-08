@@ -40,14 +40,13 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/your-username/spotify-backend.git
    cd spotify-backend
-   ```
+
 2. Install Dependencies
    ```bash
   npm install
-  ```
+ 
 3. Set up environment variables:
 Create a .env file in the root directory with the following:
-   ```
    PORT=5000
   MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/<db_name>
   CLERK_API_KEY=your-clerk-api-key
@@ -56,23 +55,23 @@ Create a .env file in the root directory with the following:
   CLOUDINARY_NAME=your-cloudinary-name
   CLOUDINARY_API_KEY=your-cloudinary-api-key
   CLOUDINARY_API_SECRET=your-cloudinary-api-secret
-```
+
 4. Start the development server:
    ```bash
    npm run dev
-```
-##Folder structure
-   ```
-   spotify-backend/
-   ├── src/
-   │   ├── controllers/       # API controllers
-   │   ├── models/            # Mongoose models
-   │   ├── routes/            # Express routes
-   │   ├── middleware/        # Authentication middleware
-   │   └── utils/             # Utility functions
-   ├── .env                   # Environment variables
-   ├── server.js              # Application entry point
-   ├── package.json           # Project dependencies
-   └── README.md              # Project documentation
-```
+
+###Folder structure
+   
+spotify-backend/
+├── src/
+│   ├── controllers/       # API controllers
+│   ├── models/            # Mongoose models
+│   ├── routes/            # Express routes
+│   ├── middleware/        # Authentication middleware
+│   └── utils/             # Utility functions
+├── .env                   # Environment variables
+├── server.js              # Application entry point
+├── package.json           # Project dependencies
+└── README.md              # Project documentation
+
 
