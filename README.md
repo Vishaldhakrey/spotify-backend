@@ -45,8 +45,9 @@ Ensure you have the following installed:
    ```bash
   npm install
   ```
-3. Set up environment variables: Create a .env file in the root directory with the following:
-   ```bash
+3. Set up environment variables:
+Create a .env file in the root directory with the following:
+   ```
    PORT=5000
   MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/<db_name>
   CLERK_API_KEY=your-clerk-api-key
@@ -60,8 +61,8 @@ Ensure you have the following installed:
    ```bash
    npm run dev
 ```
-###Folder structure
-   ```bash
+##Folder structure
+   ```
    spotify-backend/
    ├── src/
    │   ├── controllers/       # API controllers
