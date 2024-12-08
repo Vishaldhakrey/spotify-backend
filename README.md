@@ -7,6 +7,7 @@ This repository contains the backend code for a Spotify-like application, built 
 ## Features
 
 - **User Authentication**: Secure login and registration using Clerk.
+- **Admin Dashbord**: to manages the songs, albums.
 - **Song Management**: Upload, update, delete, and fetch songs with metadata.
 - **Playlist Management**: Manage playlists with CRUD operations.
 - **Cloud Integration**: File uploads (e.g., song audio files and images) via Cloudinary.
