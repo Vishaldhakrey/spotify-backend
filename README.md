@@ -40,11 +40,11 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/your-username/spotify-backend.git
    cd spotify-backend
-   
+   ```
 2. Install Dependencies
    ```bash
   npm install
-  
+  ```
 3. Set up environment variables: Create a .env file in the root directory with the following:
    ```bash
    PORT=5000
@@ -55,10 +55,11 @@ Ensure you have the following installed:
   CLOUDINARY_NAME=your-cloudinary-name
   CLOUDINARY_API_KEY=your-cloudinary-api-key
   CLOUDINARY_API_SECRET=your-cloudinary-api-secret
+```
 4. Start the development server:
    ```bash
    npm run dev
-
+```
 ###Folder structure
    ```bash
    spotify-backend/
@@ -72,5 +73,5 @@ Ensure you have the following installed:
    ├── server.js              # Application entry point
    ├── package.json           # Project dependencies
    └── README.md              # Project documentation
-
+```
 
