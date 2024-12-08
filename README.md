@@ -40,11 +40,11 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/your-username/spotify-backend.git
    cd spotify-backend
-   ```bash
+   
 2. Install Dependencies
    ```bash
   npm install
-  ```bash
+  
 3. Set up environment variables: Create a .env file in the root directory with the following:
    ```bash
    PORT=5000
@@ -58,18 +58,19 @@ Ensure you have the following installed:
 4. Start the development server:
    ```bash
    npm run dev
+
 ###Folder structure
    ```bash
-spotify-backend/
-├── src/
-│   ├── controllers/       # API controllers
-│   ├── models/            # Mongoose models
-│   ├── routes/            # Express routes
-│   ├── middleware/        # Authentication middleware
-│   └── utils/             # Utility functions
-├── .env                   # Environment variables
-├── server.js              # Application entry point
-├── package.json           # Project dependencies
-└── README.md              # Project documentation
+   spotify-backend/
+   ├── src/
+   │   ├── controllers/       # API controllers
+   │   ├── models/            # Mongoose models
+   │   ├── routes/            # Express routes
+   │   ├── middleware/        # Authentication middleware
+   │   └── utils/             # Utility functions
+   ├── .env                   # Environment variables
+   ├── server.js              # Application entry point
+   ├── package.json           # Project dependencies
+   └── README.md              # Project documentation
 
 
