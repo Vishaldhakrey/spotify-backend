@@ -71,8 +71,9 @@ spotify-backend/
 │   ├── routes/            # Express routes
 │   ├── middleware/        # Authentication middleware
 │   └── utils/             # Utility functions
+|   |__ Database            Databse connection
 ├── .env                   # Environment variables
-├── server.js              # Application entry point
+├── index.js              # Application entry point
 ├── package.json           # Project dependencies
 └── README.md              # Project documentation
 ```
